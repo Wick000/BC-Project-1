@@ -130,12 +130,14 @@ h1 {
 
 
 
-.col
+.col {
+   padding: 0%;
+}
 
 
 footer{
    text-align: center;
-   padding: 3%;
+   padding: 0%;
 
 
 }
@@ -148,3 +150,29 @@ h2 {
     font-style: italic;
     font-family: cursive;
 }
+
+.mapouter {
+   padding: 20px;
+   margin-bottom: 40px;
+ }
+
+
+ .small-column {
+   width: 15%;
+   align-items: center;
+ }
+ img {
+   width: 145px;
+   height: 70px;
+ }
+
+ .card {
+   padding: 0%;
+   border: 0%;
+ }
+
+.weather-container {
+   padding: 20px;
+   text-align: center;
+}
+
