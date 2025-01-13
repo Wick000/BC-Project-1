@@ -9,3 +9,20 @@
     height: 113px;
     width: 243px; 
 }
+
+-------------
+
+ body {
+    background-color: beige;
+
+ }
+
+
+ h1 {
+background-color: lightgray;
+ }
+
+
+ main {
+    background: url('https://a0.muscache.com/im/pictures/hosting/Hosting-1170144373727144825/original/c2336530-3f02-4b08-8236-c0ad5c8cd32b.jpeg?im_w=1200&im_format=avif') no-repeat center center / cover;
+ }
