@@ -63,15 +63,15 @@ table {
 
 
 .navbar {
-    padding: 0%;
-    border: 15px solid #03635d;
+   padding: 0%;
+   border: 15px solid #03635d;
 }
 
 
 .container-fluid {
-    background-color: #03635d;
-    color: #ffffff;
-    padding: 10px 10px 0px 0px;
+   background-color: #03635d;
+   color: #ffffff;
+   padding: 10px 10px 0px 0px;
 }
 
 
@@ -81,14 +81,14 @@ table {
 
 /*title*/
 .navbar-brand {
-    font-size: 33px;
-    color:#ffffff;
+   font-size: 33px;
+   color:#ffffff;
 }
 
 
 .nav-link {
-    font-size: 20px;
-    color:#ffffff;
+   font-size: 20px;
+   color:#ffffff;
 }
 
 h1 {
@@ -109,7 +109,6 @@ h1 {
 
  
 
- .col
 
  footer{
     text-align: center;
