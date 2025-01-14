@@ -1,9 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+/* /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-
+/* 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,10 +24,12 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+/* article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
-}
+/* } */ 
+/* 
+
 body {
     background-color: lightgray;
     line-height: 1;
@@ -47,16 +49,16 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+ */
 
-
-/*css reset above*/
+/* css reset above
 .carousel-item {
     height: 800px;
     width: 100%;
    
-}
+} */
 /* review image class*/
-.gfav {
+/* .gfav {
     height: 113px;
     width: 243px;
 }
@@ -73,14 +75,14 @@ table {
    color: #ffffff;
    padding: 10px 10px 0px 0px;
 }
-
+ */
 
 
 
 
 
 /*title*/
-.navbar-brand {
+/* .navbar-brand {
    font-size: 33px;
    color:#ffffff;
 }
@@ -96,19 +98,19 @@ h1 {
     color: lightgray;
     font-size: 50px;
     text-align: center;
-}
+} */
 
 /* main {
     background: url('https://a0.muscache.com/im/pictures/hosting/Hosting-1170144373727144825/original/c2336530-3f02-4b08-8236-c0ad5c8cd32b.jpeg?im_w=1200&im_format=avif') no-repeat center center / cover;
  } */
 
- .card-body {
+ /* .card-body {
     background-color: #03635d;
 
- }
+ } */
 
  
-
+/* 
 
  footer{
     text-align: center;
@@ -120,4 +122,108 @@ h1 {
     font-size: 25px
  }
 
+  */
+
+  body {
+   font-family: "Gill Sans", sans-serif;
+ }
+
+
+.carousel-item {
+   height: 800px;
+   width: 100%;
  
+}
+/* review image class*/
+.gfav {
+   height: 113px;
+   width: 243px;
+}
+
+
+.navbar {
+  padding-left: 10px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  font-family: "Gill Sans", sans-serif;
+  background-image: linear-gradient(rgb(90, 89, 89), rgb(151, 151, 150));
+  /* border: 15px solid #03635d; */
+}
+
+
+.container-fluid {
+  color: #000000;
+  padding: 0px 0px 0px 0px;
+}
+
+
+.navbar-brand {
+  font-size: 20px;
+  color:#000000;
+  padding-left: 0px;
+}
+
+
+.nav-link {
+  font-size: 16px;
+  color:#000000;
+  padding: 10px;
+}
+
+
+h1 {
+   color: rgb(70, 60, 60);
+   font-size: 30px;
+   text-align: center;
+   padding: 10px;
+   font-style: italic;
+   color: #03635d;
+   font-style: bold;
+}
+
+
+.card {
+   border-width: 0px;
+}
+
+
+.card-body {
+   background-image: linear-gradient(rgb(246, 246, 243),#03635d);
+}
+
+
+.card-header {
+   font-size: 20px;
+}
+
+
+footer{
+   text-align: center;
+   padding: 3%;
+   background-color: #03635d;
+}
+
+
+h2 {
+   font-size: 25px
+}
+
+
+.collapse {
+   padding-left: 800px;
+}
+
+
+p {
+   margin: 20px;
+}
+
+
+.col {
+   color:black;
+}
+
+
+.para {
+   color:#03635d;
+}

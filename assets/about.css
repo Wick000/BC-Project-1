@@ -2,10 +2,18 @@
 /* .navbar-brand.about-nav {
   margin-left: 34%;
 } */
+
 body {
-  /* display: flex;            */
-  height: 100vh;          
-}
+  height: 100vh;
+  font-family: "Gill Sans", sans-serif;
+ }
+ 
+
+.navbar {
+  font-family: "Gill Sans", sans-serif;
+  background-image: linear-gradient(rgb(90, 89, 89), rgb(151, 151, 150));
+ }
+ 
 
 .main {
   margin-left: 300px;
@@ -44,11 +52,14 @@ body {
 }
 
 .weather {
- display: inline-block;
+ display: inline;
+ margin:10%;
+ 
 }
 
 #location {
 display: block;
+
 }
 
 aside {
@@ -89,18 +100,41 @@ aside {
     color: #000;
   }
  
-.map {
+  .mapouter {
 
-}
+    display: block;
+    text-align: right;
+    width: 100%;
+    height: 400px;
+    margin:10%;
+   }
+   
+   
+   .activity-section {
+    padding-bottom: 20px;
+   }
+   
+   
+   .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 400px;
+   }
+   
+   
+   .gmap_iframe {
+    height: 400px !important;
+   }
+   
+   
+   
 /* COMPUTER SCREEN */
-@media screen and (min-width: 992px){
+@media screen and (min-width: 993px){
+  .card{
+    width: 25%;
+  }
 
-  .smallmap{
-    display: none;
-  }
-  .mediummap{
-    display: none;
-  }
 }
 
 
@@ -109,12 +143,7 @@ aside {
   .card{
     width: 50%;
   }
-  .map{
-    display: none;
-  }
-  .smallmap{
-    display: none;
-  }
+  
 }
 /* CELLPHONE SCREEN */
 @media screen and (max-width: 768px){
@@ -124,15 +153,7 @@ aside {
 /* .aside {
   margin-right: 10%;
 } */
-.map{
-    display: none;
-  }
-.mediummap{
-  display: none;
-}  
-.smallmap{
-  display: inline;
-}
+
 }
 
 
