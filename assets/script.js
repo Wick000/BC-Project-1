@@ -1,3 +1,44 @@
+// local storage section
+if (window.location.pathname.includes("index.html")) {
+
+
+    const firstName = localStorage.getItem("firstName");
+    const lastName = localStorage.getItem("lastName");
+
+
+    if (!firstName || !lastName) {
+
+
+        const userFirstName = prompt("Please enter your first name:");
+        const userLastName = prompt("Please enter your last name:");
+
+
+        if (userFirstName && userLastName) {
+
+
+            localStorage.setItem("firstName", userFirstName);
+            localStorage.setItem("lastName", userLastName);
+        }
+    }
+}
+
+
+if (window.location.pathname.includes("about.html")) {
+    const firstName = localStorage.getItem("firstName");
+    const lastName = localStorage.getItem("lastName");
+
+
+    if (firstName && lastName) {
+        alert(`Welcome, ${firstName} ${lastName}! Pack your bags—virtually, for now. Ready to start planning?`);
+    } else {
+        alert("Pack your bags—virtually, for now. Ready to start planning?");
+    }
+}
+
+
+
+
+
 const apiKey = 'b189d7005e52d97021e45dd94dd266ea'; // Replace with your OpenWeatherMap API key
 let city = 'Monson'; // Predefined city and state (e.g., 'Miami, FL') for default weather
 const units = 'imperial'; // Use 'imperial' for Fahrenheit or 'metric' for Celsius
